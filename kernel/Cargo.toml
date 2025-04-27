@@ -73,7 +73,7 @@ trapframe = { git = "https://github.com/rcore-os/trapframe-rs", rev = "bdfe5aa" 
 virtio-drivers = { git = "https://github.com/rcore-os/virtio-drivers", rev = "dfa70e14" }
 volatile = "0.2"
 woke = "0.0.2"
-xmas-elf = "0.7"
+xmas-elf = "0.10"
 
 [target.'cfg(target_arch = "x86_64")'.dependencies]
 apic = { git = "https://github.com/rcore-os/apic-rs", rev = "fb86bd7" }
